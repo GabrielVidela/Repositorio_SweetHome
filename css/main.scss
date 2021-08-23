@@ -51,10 +51,14 @@ h2{
 }
 
 .header__lista > li > a {
-    color: white;
+    color: white !important;
     font-size:35px;
     text-decoration: none;
     font-family: $fuente-secundaria;
+    margin-right: 180px;
+}
+.navbar-toggler{
+    background-color: white;
 }
 
 .parrafo{
