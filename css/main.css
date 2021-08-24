@@ -66,6 +66,7 @@ h2 {
 
 .body_parrafoNosotros {
   color: white;
+  margin-top: 190px;
   font-size: 30px;
   font-family: "Bebas Neue", cursive;
 }
@@ -262,6 +263,7 @@ select {
 .body__imgNosotros {
   height: 400px;
   width: 400px;
+  margin-bottom: 20px;
 }
 
 .imgIndex {
@@ -413,6 +415,33 @@ hr {
 }
 
 .cardComplejo3__parrafo3 {
+  color: #fff4ea;
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.cardComplejo4__titulo4 {
+  color: #dda20b;
+}
+
+.cardComplejo4__imagen4 {
+  height: 300px;
+  width: 450px;
+  margin: 25px;
+  padding: 1px;
+  border: #2a9d8f 5px;
+  border-style: outset;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cardComplejo4__imagen4:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cardComplejo4__parrafo4 {
   color: #fff4ea;
   font-size: 20px;
   margin-bottom: 25px;

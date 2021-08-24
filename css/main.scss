@@ -78,6 +78,7 @@ h2{
 
 .body_parrafoNosotros{
     color: white;
+    margin-top: 190px;
     font-size: 30px;
     font-family: $fuente-secundaria;
 }
@@ -235,6 +236,7 @@ select{
 .body__imgNosotros{
     height: 400px;
     width: 400px;
+    margin-bottom: 20px;
 }
 
 .imgIndex{
@@ -369,6 +371,31 @@ hr{
         transform: scale(1.1);
        }
     &__parrafo3{
+     color: rgb(255, 244, 234);
+     font-size: 20px;
+     margin-bottom: 35px;
+     font-family: $fuente-secundaria;
+    }
+ }
+
+ .cardComplejo4{
+
+    &__titulo4{
+     color: #dda20b;
+    }
+    &__imagen4{
+     height: 300px;
+     width: 450px;
+     margin: 25px;
+     padding: 1px;
+     border: #2a9d8f 5px;
+     border-style: outset;
+     transition: all 0.3s ease-in-out;
+    }
+    &__imagen4:hover{
+        transform: scale(1.1);
+       }
+    &__parrafo4{
      color: rgb(255, 244, 234);
      font-size: 20px;
      margin-bottom: 25px;
