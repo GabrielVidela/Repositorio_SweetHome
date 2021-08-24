@@ -402,31 +402,39 @@ hr{
      font-family: $fuente-secundaria;
     }
  }
+ 
+ select{
+     margin-left: 90px;
+ }
 
 @media only screen and (min-width: 320px) {
     .grilla {
-            display: grid;
-            grid-template-columns: 100px;
-            grid-template-rows: 100px; 
-            grid-column-gap: 10px;
-           justify-content: stretch;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            height: 100vh;
       }
 }
 
 @media only screen and (min-width: 768px) {
     .grilla {
             display: grid;
+            height: 60vh;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            grid-column-gap: 10px; 
+            grid-column-gap: 10px;
+            grid-row-gap: 10px; 
       }
 }
 
 @media only screen and (min-width: 1024px) {
     .grilla {
             display: grid;
-            grid-template-columns: repeat(6, 300px) ;
-            grid-template-rows: 100px;
+            height: 10vh;
+            grid-template-columns: repeat(4, 1fr) ;
+            grid-template-rows: 1fr;
+            grid-column-gap: 10px;
             align-items: center;
             justify-content: space-around;
       }

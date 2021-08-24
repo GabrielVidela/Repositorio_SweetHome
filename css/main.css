@@ -448,18 +448,24 @@ hr {
   font-family: "Bebas Neue", cursive;
 }
 
+select {
+  margin-left: 90px;
+}
+
 @media only screen and (min-width: 320px) {
   .grilla {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100px;
-        grid-template-columns: 100px;
-    -ms-grid-rows: 100px;
-        grid-template-rows: 100px;
-    grid-column-gap: 10px;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100vh;
   }
 }
 
@@ -467,11 +473,13 @@ hr {
   .grilla {
     display: -ms-grid;
     display: grid;
+    height: 60vh;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
 }
 
@@ -479,10 +487,12 @@ hr {
   .grilla {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (300px)[6];
-        grid-template-columns: repeat(6, 300px);
-    -ms-grid-rows: 100px;
-        grid-template-rows: 100px;
+    height: 10vh;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
