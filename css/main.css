@@ -275,6 +275,11 @@ select {
   border-style: outset;
 }
 
+.separacionIndex {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 hr {
   width: 100%;
   opacity: 1;
@@ -452,6 +457,22 @@ select {
   margin-left: 90px;
 }
 
+.separacionComplejos {
+  margin-left: 50px;
+  margin-top: 10%;
+}
+
+.tituloComplejos {
+  margin-right: 150px;
+  padding-top: 50px;
+}
+
+.separacionNosotros {
+  margin-right: 15rem;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
 @media only screen and (min-width: 320px) {
   .grilla {
     display: -webkit-box;
@@ -467,6 +488,10 @@ select {
         justify-content: space-around;
     height: 100vh;
   }
+}
+
+.linkHome {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -498,5 +523,12 @@ select {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headerTitulo {
+    text-align: center;
+    margin-right: 100px;
   }
 }
