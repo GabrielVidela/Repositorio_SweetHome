@@ -14,7 +14,7 @@
     font-size: 65px;
     text-align: start;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 0px;
     filter: drop-shadow(
         0
         0
@@ -278,17 +278,15 @@ hr{
     cursor: pointer;
 }
 
-.iconsCards{
-    height: $alto_img/3;
-    width: $ancho_img/3;
-    padding: 5px;
-    margin-right: 150px;
-}
-
 .flexCards{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    
+}
+
+.iconsCards{
+    margin-top: 50px;
 }
 
 .btnEnviarContacto{
@@ -470,7 +468,109 @@ hr{
 @media only screen and (max-width: 768px) {
     .headerTitulo {
             text-align: center;
-            margin-right: 100px;
+            margin-right: 0px;
+            margin-left: 0px;
       }
-      
+      .separacionNosotros{
+        margin-right: 15rem;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-right: 0px;
+      }
+      .body__imgNosotros{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 135px;
+    }
+    .body_parrafoNosotros{
+        color: white;
+        margin-top: 100px;
+        font-size: 30px;
+        font-family: "Bebas Neue", cursive;
+    } 
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .cardComplejo__imagen{
+        height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: #2a9d8f 5px;
+    border-style: outset;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    .cardComplejo2__imagen2{
+        height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: #2a9d8f 5px;
+    border-style: outset;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    .cardComplejo3__imagen3{
+        height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: #2a9d8f 5px;
+    border-style: outset;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    .cardComplejo4__imagen4{
+        height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: #2a9d8f 5px;
+    border-style: outset;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    .tituloComplejos{
+        margin-right: 150px;
+        padding-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .body__imgNosotros{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .body_parrafoNosotros{
+        color: white;
+        margin-top: 100px;
+        margin-left: 2rem;
+        font-size: 30px;
+        font-family: "Bebas Neue", cursive;
+    }
+    .header__lista > li > a {
+        color: white !important;
+        font-size:35px;
+        text-decoration: none;
+        font-family: $fuente-secundaria;
+        margin-right: 140px;
+    }
+    .iconsCards{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .container-fluid{
+        background-color: black;
+        opacity: 0.5;
+    }
+    .footer__column{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
 }
